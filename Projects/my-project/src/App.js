@@ -3,7 +3,7 @@ import HWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName'
 import Person from './components/Person'
 import Phrase from './components/Phrase';
-
+import List from './components/List';
 
 function App() {
   const name = 'Kevin'
@@ -17,6 +17,7 @@ function App() {
   
   return (
     <div className="App">
+
       <header className="App-header">
         <h1> Hello World (In React)</h1>
         <p>This is my first app (in React)</p>
@@ -39,7 +40,9 @@ function App() {
         <h1>Testing CSS</h1>
 
         <Phrase />        
-        <Phrase />        
+        <Phrase />
+
+        <List />
 
     </div>
   );
