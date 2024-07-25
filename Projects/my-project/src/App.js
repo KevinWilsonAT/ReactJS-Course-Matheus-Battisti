@@ -6,6 +6,7 @@ import Phrase from './components/Phrase';
 import List from './components/List';
 import Event from './components/Event';
 import Form from './components/Form';
+import Conditional from './components/Conditional';
 
 function App() {
   const name = 'Kevin'
@@ -50,6 +51,9 @@ function App() {
         <Event num="1"/>
         <Event num="2"/>
         <Form />
+
+        <h1>Conditional Rendering</h1>
+        <Conditional />
     </div>
   );
 }
