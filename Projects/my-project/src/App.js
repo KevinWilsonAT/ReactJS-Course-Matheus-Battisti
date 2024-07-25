@@ -4,6 +4,8 @@ import SayMyName from './components/SayMyName'
 import Person from './components/Person'
 import Phrase from './components/Phrase';
 import List from './components/List';
+import Event from './components/Event';
+import Form from './components/Form';
 
 function App() {
   const name = 'Kevin'
@@ -44,6 +46,10 @@ function App() {
 
         <List />
 
+        <h1>Testing Events</h1>
+        <Event num="1"/>
+        <Event num="2"/>
+        <Form />
     </div>
   );
 }
