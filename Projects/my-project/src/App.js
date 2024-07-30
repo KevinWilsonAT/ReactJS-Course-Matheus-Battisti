@@ -1,3 +1,17 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// Pages Contents
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+
+// Pages Parts Layouts
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+
+// Commented Code is ommited when uses React Router
+
+/*
 import './App.css';
 import HWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName'
@@ -11,9 +25,10 @@ import OtherList from './components/OtherList';
 import YourName from './components/YourName';
 import Greetings from './components/Greetings';
 import { useState } from 'react';
+*/
 
 function App() {
-  const name1 = 'Kevin'
+/*  const name1 = 'Kevin'
   const newname = name1.toUpperCase()
 
   function sum(a, b){
@@ -25,8 +40,9 @@ function App() {
   const myItems = ['React', 'Vue', 'Angular']
 
   const [name, setName] = useState()
-
+*/
   return (
+    /*
     <div className="App">
 
       <header className="App-header">
@@ -79,6 +95,24 @@ function App() {
         <YourName setName={setName}/>
         <Greetings name={name} />
     </div>
+    */
+    <Router>
+      <h1> 15 - Implementing React Router</h1>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={
+          <Home />
+        } />
+        <Route path="/about" element={
+          <About />
+        } />
+        <Route path="/contact" element={
+          <Contact />
+        } />
+      </Routes>
+      <h1> 16 - React Icons</h1>
+      <Footer />
+    </Router>
   );
 }
 
