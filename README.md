@@ -1,4 +1,4 @@
-<h2> Projetos e Exercícios de Programação em Python </h2>
+<h2> Projetos e Exercícios de Programação em React </h2>
 
 <p align="left">
   Projetos e Exercícios feitos na sequência de aulas de programação em Linguagem JavaScript, utilizando a biblioteca ReactJS pelo professor Matheus Battisti do canal 
