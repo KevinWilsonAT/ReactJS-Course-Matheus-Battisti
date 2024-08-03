@@ -60,6 +60,7 @@ function ProjectForm({ handleSubmit, btnText, projectData}) {
                 value={project.budget ? project.budget : ''}
             />
             <Select
+                
                 name="category_id"
                 text="Select the category"
                 options={categories}
