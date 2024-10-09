@@ -8,21 +8,8 @@
         "id": "1",
         "name": "Infrastructure"
       },
-      "cost": 1,
-      "services": [
-        {
-          "name": "delta",
-          "cost": "1",
-          "description": "a",
-          "id": "2fc6fea4-08f3-4ce4-a1f2-0327bb6ab448"
-        },
-        {
-          "name": "alpha",
-          "cost": "0",
-          "description": "a",
-          "id": "f6321988-593c-43c3-b223-39cf2f5bb6e7"
-        }
-      ]
+      "cost": 0,
+      "services": []
     },
     {
       "id": "7dee",
